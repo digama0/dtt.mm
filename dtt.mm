@@ -1340,7 +1340,7 @@ $)
   $( Type of the sigma type.
        (Contributed by Mario Carneiro, 26-Feb-2016.) $)
   ksig $a |- sigma i j : \ x : Type i , \ y : ( x -> Type j ) ,
-             Type max suc u0 max i j ) $.
+            ( Type max suc u0 max i j ) $.
 
   $( Type of the first component function.
        (Contributed by Mario Carneiro, 26-Feb-2016.) $)
