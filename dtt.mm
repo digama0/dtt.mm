@@ -967,7 +967,7 @@ $)
   $}
 
   ${
-    $d x OA $.  $d x OB $.
+    $d x OA $.  $d x OB $.  $d x OC $.  $d x ph $.
     $( The type of a constant function.
      (Contributed by Mario Carneiro, 26-Feb-2016.) $)
     imval $p |- ( A : OA |= ( OA -> OB ) A := OB ) $=
@@ -986,6 +986,7 @@ $)
   $}
 
   ${
+    $d x OA $.  $d x OB $.
     kcim.1 $e |- ( ph |= MA : ( OA -> OB ) ) $.
     kcim.2 $e |- ( ph |= B : OA ) $.
     $( The type of a combination.
@@ -1141,6 +1142,7 @@ $)
                OB : Type imax i j ) $.
 
   ${
+    $d x OA $.  $d x ph $.  $d x j $.
     tyld.1 $e |- ( ph |= OA : Type i ) $.
     tyld.2 $e |- ( ( ph , x : OA ) |= OB : Type j ) $.
     $( A lambda abstraction representing a pi type is a member of the imax of the
@@ -1153,6 +1155,7 @@ $)
   $}
 
   ${
+    $d x OA $.  $d x ph $.
     tylpp.1 $e |- ( ph |= OA : Type i ) $.
     tylpp.2 $e |- ( ( ph , x : OA ) |= OB : Prop ) $.
     $( The type of a forall statement.
