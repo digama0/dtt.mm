@@ -1288,7 +1288,7 @@ $)
 
   $( The conditional (bool recursor).
      (Contributed by Mario Carneiro, 14-Mar-2016.) $)
-  kcd $a |- cond i : \ x : Type i , ( two -> ( x -> ( x -> x ) ) ) $.
+  kcl $a |- cond i : \ x : Type i , ( bool -> ( x -> ( x -> x ) ) ) $.
 
   ${
     dett.1 $e |- ( ph |= OA : Type i ) $.
@@ -1315,6 +1315,8 @@ $)
   $c sigma1 $.
   $c sigma2 $.
   $c pair $.
+  $c 1st $.
+  $c 2nd $.
 
   $( The sigma type, the equivalent of an indexed disjoint union in ZFC.
      (Contributed by Mario Carneiro, 26-Feb-2016.) $)
